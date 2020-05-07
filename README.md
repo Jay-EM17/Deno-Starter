@@ -1,2 +1,2 @@
 # Deno-Starter
-A very baasic and simple REST API developed using Deno ad TypeScript.
+A very basic and simple REST API developed using Deno ad TypeScript.

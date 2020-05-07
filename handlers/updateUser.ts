@@ -1,6 +1,6 @@
 import { updateUser } from "../services/users.ts";
 
-export default async ({ params, request, response }) => {
+export default async ({ params, request, response }: any) => {
   const userId = params.id;
 
   if (!userId) {

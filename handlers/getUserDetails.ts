@@ -1,6 +1,6 @@
 import { getUser } from "../services/users.ts";
 
-export default async ({ params, response }) => {
+export default async ({ params, response }: any) => {
   const userId = params.id;
 
   if (!userId) {
